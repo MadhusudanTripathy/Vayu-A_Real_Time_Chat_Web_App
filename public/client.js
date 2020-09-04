@@ -15,7 +15,7 @@ textarea.addEventListener('keyup', (e) => {
 
 function sendMessage(message) {
     let msg = {
-        user: name,
+        user: name.trim(),
         message: message
     }
     // Append 
