@@ -3,7 +3,7 @@ let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message_area')
 do {
-    name = prompt('Please enter your name: ')
+    name = prompt('Welcome\nEnter Your First_Name:')
 } while(!name)
 socket.emit('new-user-joined', name)
 
