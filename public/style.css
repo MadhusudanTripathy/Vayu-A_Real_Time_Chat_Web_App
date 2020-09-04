@@ -60,15 +60,32 @@ textarea {
     color: #787986;  
     margin-right: auto;
 }
+
 .outgoing {
     background: #e3dfc8;
     color: #787986;
     margin-left: auto;
+    right: 0;
 }
-.message h4 {
+
+/* .message h4 {
     position: absolute;
     top: -20px;
     left: 0;
+    color: #fff;
+    font-size: 14px;
+} */
+.incoming h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+}
+.outgoing h4 {
+    position: absolute;
+    top: -20px;
+    right: 0;
     color: #fff;
     font-size: 14px;
 }

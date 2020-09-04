@@ -34,7 +34,7 @@ function appendMessage(msg, type) {
     mainDiv.classList.add(className, 'message')
 
     let markup = `
-        <h4>${msg.user}</h4>
+        <h4 class="sname">${msg.user}</h4>
         <p>${msg.message}</p>
     `
     mainDiv.innerHTML = markup
