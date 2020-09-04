@@ -57,12 +57,12 @@ textarea {
 }
 .incoming {
     background: #f5f1da;
-    color: #787986;  
+    color: #fff;  
     margin-right: auto;
 }
 .outgoing {
     background: #e3dfc8;
-    color: #787986;
+    color: #fff;
     
     margin-left: auto;
 }
