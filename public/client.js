@@ -47,7 +47,7 @@ socket.on('message', (msg) => {
     scrollToBottom()
 })
 socket.on('new-user-joined', (namex) => {
-  alert(namex+"Has Joined Now")
+  alert(namex+" Has Joined Now")
 })
 
 function scrollToBottom() {
