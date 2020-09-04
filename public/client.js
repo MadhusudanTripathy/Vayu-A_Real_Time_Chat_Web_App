@@ -16,7 +16,7 @@ textarea.addEventListener('keyup', (e) => {
 function sendMessage(message) {
     let msg = {
         user: name,
-        message: message.trim()
+        message: message
     }
     // Append 
     appendMessage(msg, 'outgoing')
@@ -47,7 +47,7 @@ socket.on('message', (msg) => {
     scrollToBottom()
 })
 socket.on('new-user-joined', (namex) => {
-  alert(namex+" Joined Now")
+  alert(namex+"Has Joined Now")
 })
 
 function scrollToBottom() {

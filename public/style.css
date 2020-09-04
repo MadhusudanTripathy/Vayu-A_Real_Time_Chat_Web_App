@@ -58,12 +58,10 @@ textarea {
 .incoming {
     background: #f5f1da;
     color: #787986;  
-    margin-right: auto;
 }
 .outgoing {
     background: #e3dfc8;
     color: #787986;
-    
     margin-left: auto;
 }
 .message h4 {
